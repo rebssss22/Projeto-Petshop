@@ -1,66 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Show</title>
     <script src="https://use.fontawesome.com/271587175f.js"></script>
+    <link rel="icon" href="/img/step-logo.svg" type="image/svg+xml">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-
 <body>
-    <div>
+    <div class="background-image">
         <div>
-            <div></div>
-            <p>PetShow</p>
-        </div>
-        <div>
-            <ul>
-                <li>Início</li>
-                <li>Serviços</li>
-                <li>O PetShow</li>
-            </ul>
+            <div class="container">
+                <div><img class="logo" src="img/step-logo.svg" alt="Logo do PetShop"></div>
+                <p>PetShow</p>
+            </div>
+            <div>
+                <ul id="listaInicio">
+                    <li id="primeiraLista">Início</li>
+                    <li id="primeiraLista">Serviços</li>
+                    <li id="primeiraLista">O PetShow</li>
+                </ul>
+            </div>
+            <div>
+                <div id="botaoAgende">
+                    <button type="button" class="btn btn-dark">Agende para Seu Pet!</button>
+                </div>
+            </div>
         </div>
     </div>
-    <div>
-        <div>
-            <button>Agende para Seu Pet!</button>
-        </div>
-        <div>
+
+</body>
+</html>
+
+    
+        <div class="centro">
             <h3><i class="fa fa-paw" aria-hidden="true"></i> Nossos Serviços <i class="fa fa-paw"
                     aria-hidden="true"></i></h3>
             <div>
-                <div>
+                <div class="cor div-banho">
                     <p>Banho</p>
-                    <div></div>
-                    <button>Saiba Mais</button>
+                    <div><img class="imagens" src="img/services-shower.svg" alt="Imagem Banho"></div>
+                    <button type="button" class="btn btn-dark">Saiba Mais</button>
                 </div>
-                <div class="servicos">
+                <div class="servicos cor div-tosa">
                     <p>Tosa</p>
-                    <div></div>
-                    <button>Saiba Mais</button>
+                    <div><img class="imagens" src="img/services-shower.svg" alt="Imagem Tosa"></div>
+                    <button type="button" class="btn btn-dark">Saiba Mais</button>
                 </div>
-                <div>
+                <div class="cor div-atendimento">
                     <p>Atendimento Veterinário</p>
-                    <div></div>
-                    <button>Saiba Mais</button>
+                    <div><img class="imagens" src="img/services-vet.svg" alt="Imagem Veterinário"></div>
+                    <button type="button" class="btn btn-dark">Saiba Mais</button>
                 </div>
-                <div>
+                <div class="cor div-walk">
                     <p>Dog Walk</p>
-                    <div></div>
-                    <button>Saiba Mais</button>
+                    <div><img class="imagens" src="img/services-walk.svg" alt="Imagem Caminhada com o Dog"></div>
+                    <button type="button" class="btn btn-dark">Saiba Mais</button>
                 </div>
-                <div>
+                <div class="cor div-comida">
                     <p>Alimentação</p>
-                    <div></div>
-                    <button>Saiba Mais</button>
+                    <div><img class="imagens" src="img/services-food.svg" alt="Imagem Ração"></div>
+                    <button type="button" class="btn btn-dark">Saiba Mais</button>
                 </div>
-                <div>
+                <div class="cor div-loja">
                     <p>Loja Acessórios</p>
-                    <div></div>
-                    <button>Saiba Mais</button>
+                    <div><img class="imagens" src="img/services-store.svg" alt="Imagem Loja"></div>
+                    <button type="button" class="btn btn-dark">Saiba Mais</button>
                 </div>
             </div>
         </div>
